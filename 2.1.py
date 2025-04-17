@@ -319,5 +319,3 @@ class FallDetector:
 
 if __name__ == "__main__":
     FallDetector("yolo11n-pose.pt", width=1920, height=1080).run()
-
-#I would like to take this logic and make it work for multiple people in the frame. If there are several detected humans, I want their falls to be detected independently (it's ok to use the same variables for fall indication). I need it to be resilient to people gfoing in and out of frame, and I dont know how I would go about that.
